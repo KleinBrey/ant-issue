@@ -15,6 +15,7 @@ import { NzSelectModule } from 'ng-zorro-antd/select';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { NzDatePickerModule } from 'ng-zorro-antd/date-picker';
+import { NzInputModule } from 'ng-zorro-antd/input';
 
 registerLocaleData(en);
 
@@ -27,6 +28,7 @@ registerLocaleData(en);
     BrowserAnimationsModule,
     AppRoutingModule,
     FormsModule,
+    NzInputModule,
     NzSelectModule,
     NzDatePickerModule,
   ],
